@@ -1,5 +1,7 @@
-# Sistema de Control Ambiental con ESP32
+# Proyecto Aplicaciones de IoT
 
+# Integrantes 
+# 
 Este proyecto implementa un sistema automático de monitoreo y control de ambiente utilizando un ESP32, sensores de temperatura, humedad y calidad del aire, y un sistema de notificaciones MQTT.
 
 ## 📋 Descripción
