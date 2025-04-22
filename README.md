@@ -38,6 +38,15 @@ Cada vez que un dispositivo se enciende o apaga, el sistema envía una notificac
 | Relé calefacción | GPIO23 |
 | MQ-135 | GPIO34 (ADC) |
 
+## Evidencia 
+
+## Evidencia
+
+![Descripción de la imagen 1](https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf)
+![Descripción de la imagen 2](ruta/a/tu/imagen2.png)
+
+
+
 ## 📡 Sistema de notificaciones MQTT
 
 El sistema utiliza el protocolo MQTT para enviar notificaciones en tiempo real cuando cambia el estado de cualquier dispositivo. 
