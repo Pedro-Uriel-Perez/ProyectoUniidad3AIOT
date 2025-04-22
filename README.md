@@ -1,163 +1,95 @@
-# Guía de Instalación
+# Sistema de Control Ambiental con ESP32
 
-Esta guía detalla el proceso completo para instalar y configurar el sistema de control automático en tu ESP32.
+Este proyecto implementa un sistema automático de monitoreo y control de ambiente utilizando un ESP32, sensores de temperatura, humedad y calidad del aire, y un sistema de notificaciones MQTT.
 
-## Requisitos previos
+## 📋 Descripción
 
-- ESP32 (cualquier modelo)
-- Sensor DHT22
-- Sensor MQ-135
-- 3 relés (para ventilador, humidificador y calefacción)
-- Cable micro-USB para programación
-- Software Thonny IDE (recomendado) o similar para programar el ESP32
+El sistema monitorea constantemente las condiciones ambientales y controla automáticamente los siguientes dispositivos:
 
-## Paso 1: Preparar el ESP32
+- **Ventilador**: Se activa cuando la temperatura supera el umbral establecido o cuando la calidad del aire es deficiente
+- **Humidificador**: Se activa cuando la humedad es baja
+- **Sistema de calefacción**: Se activa cuando la temperatura es baja
 
-1. **Instalar MicroPython**:
-   
-   Si tu ESP32 aún no tiene MicroPython, sigue estos pasos:
-   
-   - Descarga el firmware más reciente de MicroPython para ESP32 desde [micropython.org/download/esp32](https://micropython.org/download/esp32/)
-   - Instala esptool para flashear el firmware:
-     ```
-     pip install esptool
-     ```
-   - Conecta tu ESP32 y flashea MicroPython:
-     ```
-     esptool.py --port [PUERTO_COM] erase_flash
-     esptool.py --port [PUERTO_COM] --baud 460800 write_flash -z 0x1000 [ARCHIVO_MICROPYTHON.bin]
-     ```
-     Reemplaza [PUERTO_COM] con tu puerto (ej: COM3 en Windows o /dev/ttyUSB0 en Linux)
+Cada vez que un dispositivo se enciende o apaga, el sistema envía una notificación detallada a través de MQTT.
 
-## Paso 2: Preparar los archivos
+## 🔧 Componentes
 
-1. **Crear la estructura de directorios**:
-   
-   Necesitarás crear un directorio llamado `umqtt` en tu ESP32 para la biblioteca MQTT.
+- **ESP32**: Microcontrolador principal
+- **DHT22**: Sensor de temperatura y humedad
+- **MQ-135**: Sensor de calidad del aire
+- **Relés (x3)**: Para controlar ventilador, humidificador y sistema de calefacción
 
-   En Thonny IDE:
-   - Conéctate a tu ESP32
-   - Ejecuta el siguiente código para crear el directorio:
-     ```python
-     import os
-     try:
-         os.mkdir('umqtt')
-     except OSError:
-         pass  # El directorio ya existe
-     ```
+## 📊 Parámetros configurables
 
-2. **Subir los archivos**:
-   
-   Debes subir dos archivos a tu ESP32:
-   
-   - `main.py` -> Subir a la raíz del ESP32
-   - `simple.py` -> Subir al directorio `umqtt` del ESP32
+| Parámetro | Valor predeterminado | Descripción |
+|-----------|----------------------|-------------|
+| TEMP_UMBRAL_ALTO | 20.0°C | Temperatura máxima antes de activar ventilación |
+| TEMP_UMBRAL_BAJO | 40.0°C | Temperatura mínima antes de activar calefacción |
+| HUM_UMBRAL | 50.0% | Humedad mínima antes de activar humidificador |
+| AIR_UMBRAL | 1200 | Umbral de calidad de aire para ventilación |
 
-   En Thonny IDE:
-   - Crea un nuevo archivo, copia el contenido de `main.py` y guárdalo como `main.py` en el ESP32
-   - Crea otro archivo, copia el contenido de `simple.py` y guárdalo como `simple.py` en la carpeta `umqtt` del ESP32
+## 🔌 Conexiones
 
-## Paso 3: Configurar el código
+| Componente | Pin ESP32 |
+|------------|-----------|
+| DHT22 | GPIO4 |
+| Relé ventilador | GPIO21 |
+| Relé humidificador | GPIO22 |
+| Relé calefacción | GPIO23 |
+| MQ-135 | GPIO34 (ADC) |
 
-1. **Editar credenciales y parámetros**:
-   
-   Abre `main.py` en tu editor y modifica:
-   
-   ```python
-   # Configuración WiFi
-   WIFI_SSID = "TU_SSID"              # Cambia a tu nombre de red WiFi
-   WIFI_PASSWORD = "TU_PASSWORD"      # Cambia a tu contraseña WiFi
-   
-   # Configuración MQTT
-   MQTT_CLIENT_ID = "esp32_control"   # Puedes dejarlo así o personalizarlo
-   MQTT_TOPIC = "tu_tema/alertas"     # Cambia a un tema único para tus notificaciones
-   ```
-   
-   Opcionalmente, ajusta los umbrales según tus necesidades:
-   
-   ```python
-   TEMP_UMBRAL_ALTO = 20.0   # Ajusta según sea necesario
-   TEMP_UMBRAL_BAJO = 40.0   # Ajusta según sea necesario
-   HUM_UMBRAL = 50.0         # Ajusta según sea necesario
-   AIR_UMBRAL = 1200         # Ajusta según sea necesario
-   ```
+## 📡 Sistema de notificaciones MQTT
 
-## Paso 4: Conexiones físicas
+El sistema utiliza el protocolo MQTT para enviar notificaciones en tiempo real cuando cambia el estado de cualquier dispositivo. 
 
-1. **Conectar el sensor DHT22**:
-   - VCC → 3.3V del ESP32
-   - GND → GND del ESP32
-   - DATA → GPIO4 del ESP32
-   - Añade resistencia pull-up de 10kΩ entre VCC y DATA
+### Configuración MQTT
+- **Broker**: broker.hivemq.com (público)
+- **Puerto**: 1883
+- **Tema (Topic)**: criadero/alertas
+- **Cliente ID**: esp32_control
 
-2. **Conectar el sensor MQ-135**:
-   - VCC → 5V del ESP32 (el sensor necesita 5V para funcionar correctamente)
-   - GND → GND del ESP32
-   - AOUT → GPIO34 del ESP32
+### Cómo recibir las notificaciones
+Para ver las notificaciones, puedes usar cualquier cliente MQTT:
 
-3. **Conectar los relés**:
-   - Relé 1: IN → GPIO21 del ESP32
-   - Relé 2: IN → GPIO22 del ESP32
-   - Relé 3: IN → GPIO23 del ESP32
-   - VCC → 5V o 3.3V del ESP32 (según el módulo de relé)
-   - GND → GND del ESP32
+1. Instala una aplicación cliente MQTT (MQTT Explorer, MQTT Dashboard, etc.)
+2. Conéctala al broker: broker.hivemq.com:1883
+3. Suscríbete al tema: criadero/alertas
 
-## Paso 5: Pruebas y verificación
+## 📁 Estructura del proyecto
 
-1. **Reiniciar el ESP32**:
-   - Presiona el botón de reset en el ESP32 o desconecta y vuelve a conectar la alimentación
-   - El programa comenzará a ejecutarse automáticamente
+- **main.py**: Programa principal
+- **umqtt/simple.py**: Biblioteca MQTT para MicroPython
 
-2. **Verificar funcionamiento**:
-   - Observa la salida en la consola serie (115200 baud)
-   - Deberías ver mensajes como:
-     ```
-     Conectando a WiFi...
-     Conectado a WiFi
-     Dirección IP: 192.168.x.x
-     Sistema de control automático de temperatura, humedad y calidad del aire
-     ```
+## ⚙️ Instalación
 
-3. **Verificar las notificaciones MQTT**:
-   - Configura un cliente MQTT como se indica en la guía correspondiente
-   - Suscríbete al tema configurado en tu código
-   - Prueba forzando la activación de algún relé (p.ej. acercando un objeto caliente al sensor DHT22)
-   - Deberías recibir notificaciones cuando cambie el estado de los relés
+1. Crea la carpeta `umqtt` en tu ESP32
+2. Copia el archivo `simple.py` dentro de la carpeta `umqtt`
+3. Copia el archivo `main.py` en la raíz del ESP32
 
-## Solución de problemas
+## 🚀 Uso
 
-1. **Errores de importación**:
-   - Si aparece `ImportError: no module named 'umqtt.simple'`, verifica que el archivo `simple.py` esté correctamente ubicado en la carpeta `umqtt`
-   
-2. **Problemas de conexión WiFi**:
-   - Verifica las credenciales WiFi
-   - Asegúrate de que el ESP32 esté dentro del alcance de tu router
+El sistema inicia automáticamente al conectar el ESP32. La información del sistema se muestra a través del puerto serie:
 
-3. **Errores de lectura de sensores**:
-   - Verifica conexiones físicas
-   - Para el DHT22, asegúrate de tener una resistencia pull-up adecuada
+- Lecturas de temperatura, humedad y calidad del aire
+- Estado de los dispositivos controlados
+- Información de conexión WiFi y MQTT
 
-4. **Problemas con MQTT**:
-   - Si ves errores de conexión MQTT, verifica que tengas acceso a Internet
-   - El broker público puede estar ocasionalmente sobrecargado, espera y reintenta
+## 🔄 Funcionamiento
 
-## Calibración del sensor MQ-135
+El sistema sigue un ciclo simple de operación:
 
-El sensor MQ-135 puede requerir calibración:
+1. Lee los valores de los sensores
+2. Compara con los umbrales establecidos
+3. Activa/desactiva los dispositivos según sea necesario
+4. Envía notificaciones cuando cambia el estado de un dispositivo
+5. Espera 3 segundos y repite
 
-1. Coloca el sensor en un ambiente de aire limpio
-2. Deja que se caliente durante 24-48 horas
-3. Monitorea los valores y ajusta `AIR_UMBRAL` según sea necesario
-4. Típicamente, valores por encima de 1000-1500 indican mala calidad del aire
+## 📝 Notas
 
-## Mantenimiento
+- El sensor DHT22 requiere al menos 2 segundos entre lecturas
+- Los relés en este sistema funcionan con lógica invertida (1 = apagado, 0 = encendido)
+- El sistema reconecta automáticamente WiFi y MQTT si se pierde la conexión
 
-- Realiza limpiezas periódicas de los sensores para evitar lecturas erróneas
-- Verifica regularmente las conexiones físicas
-- Considera actualizar el firmware MicroPython anualmente
+## 🔒 Seguridad
 
-## Avanzado: Configuración de arranque
-
-Para asegurar que el programa se inicie automáticamente:
-
-1. El archivo `main.py` se ejecuta automáticamente al enc
+Este proyecto utiliza un broker MQTT público para demostración. Para un entorno de producción, considere usar un broker privado con autenticación.
