@@ -43,7 +43,7 @@ Cada vez que un dispositivo se enciende o apaga, el sistema envía una notificac
 ## Evidencia
 
 ![Descripción de la imagen 1](https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf)
-![Descripción de la imagen 2](ruta/a/tu/imagen2.png)
+![Descripción de la imagen 2](https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00)
 
 
 
