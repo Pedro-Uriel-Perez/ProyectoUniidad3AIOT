@@ -125,23 +125,14 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 <img src="https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00" width="300" alt="Imagen2">
 
 
+
+
+---
+
 # Diagramas de componentes  
-<img src="https://github.com/user-attachments/assets/60e2088f-d119-4d7a-8a2e-41b153fed68c" width="300" alt="ESP32">
-
-- Microcontrolador principal que coordina todo el sistema.
+<img src="https://github.com/user-attachments/assets/60e2088f-d119-4d7a-8a2e-41b153fed68c" width="1000" alt="ESP32">
 
 ---
-
-### IAMGEN 1  
-<img src="https://github.com/user-attachments/assets/14b93496-4a37-4430-bae8-318b63246710" width="300" alt="DHT22">
-
-- Sensor de temperatura y humedad de alta precisión.  
-- **Rango de medición:** -40°C a 80°C / 0–100% HR
-
----
-
-
-
 
 
 ## 🚀 Uso
@@ -154,6 +145,21 @@ El sistema sigue un ciclo simple de operación:
 1. Lee los valores de los sensores
 2. Compara con los umbrales establecidos
 3. Activa/desactiva los dispositivos según sea necesario
+
+
+---
+
+# ESP32-2432S028 Con LVGL
+<img src="https://github.com/user-attachments/assets/ef73f6c0-ce82-4ee4-9682-ee41573a47bd" width="1000" alt="ESP32">
+
+---
+
+## Evidencia de funcionamiento 
+<img src="https://github.com/user-attachments/assets/630d154e-5da4-4271-9d7c-189b227808ce" width="300" alt="Imagen1">
+<img src="https://github.com/user-attachments/assets/7fbbeecc-17ee-47e7-9923-9f67d928d13c" width="300" alt="Imagen2">
+<img src="https://github.com/user-attachments/assets/1b995e7e-c866-4f1c-9679-44b30029b1c0" width="300" alt="Imagen2">
+
+
 
 
 # Evidencias de practicas de clase
