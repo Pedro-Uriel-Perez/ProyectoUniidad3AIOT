@@ -126,7 +126,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 
 
 # Diagramas de componentes  
-<img src="https://github.com/user-attachments/assets/c650635a-9bcd-4f11-838e-982a7d413050" width="300" alt="ESP32">
+<img src="https://github.com/user-attachments/assets/60e2088f-d119-4d7a-8a2e-41b153fed68c" width="300" alt="ESP32">
 
 - Microcontrolador principal que coordina todo el sistema.
 
@@ -140,13 +140,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 
 ---
 
-### IMAGEN 2  
-<img src="https://github.com/user-attachments/assets/7a0789e5-94bd-4a2c-a86e-67c4970373ba" width="300" alt="MQ-135">
 
-- Sensor de calidad del aire.  
-- Detecta gases contaminantes como: NH₃, NOₓ, alcohol, benceno, humo, CO₂
-
----
 
 
 
