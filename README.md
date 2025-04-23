@@ -1,6 +1,6 @@
 # Proyecto Aplicaciones de IoT
 - **Alumnos:** 
-# Miguel Angel Alvarez Ibarra
+## Miguel Angel Alvarez Ibarra
 - **N.Control:**  12231004533
 # Pedro Uriel Perez Monzon
 - **N.Control:**  1223100428
@@ -33,8 +33,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 | AIR_UMBRAL | 1200 | Umbral de calidad de aire para ventilación |
 
 ## Evidencia de funcionamiento
-# Video de funcionamiento 
-[Video](https://drive.google.com/drive/folders/1AQbpGpi7e0rlrNGNPIrpgBGgKlkwMyw0?usp=sharing)
+# [Video](https://drive.google.com/drive/folders/1AQbpGpi7e0rlrNGNPIrpgBGgKlkwMyw0?usp=sharing)
 
 ![Descripción de la imagen 1](https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf)
 ![Descripción de la imagen 2](https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00)
