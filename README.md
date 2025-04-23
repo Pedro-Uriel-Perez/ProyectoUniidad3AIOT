@@ -20,53 +20,82 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 - **Sistema de sonido (Buzzer)**: Se activa cuando el nivel de agua es bajo
 - **Sistema de Alimentacion (Servomotor)**: Se abre cada cierto tiempo, para la alimentacion de los insectos  
 
+
 ## 🔧 Componentes
 
-### ESP32
-![ESP32](https://github.com/user-attachments/assets/placeholder-for-esp32-image.jpg)
-- Microcontrolador principal que coordina todo el sistema
+### ESP32  
+<img src="https://github.com/user-attachments/assets/c650635a-9bcd-4f11-838e-982a7d413050" width="300" alt="ESP32">
 
-### DHT22
-![DHT22](https://github.com/user-attachments/assets/placeholder-for-dht22-image.jpg)
-- Sensor de temperatura y humedad de alta precisión
-- Rango de medición: -40°C a 80°C / 0-100% HR
+- Microcontrolador principal que coordina todo el sistema.
 
-### MQ-135
-![MQ-135](https://github.com/user-attachments/assets/placeholder-for-mq135-image.jpg)
-- Sensor de calidad del aire
-- Detecta gases contaminantes como NH3, NOx, alcohol, benzeno, humo, CO2
+---
 
-### Módulo de 4 Relevadores
-![Módulo Relevadores](https://github.com/user-attachments/assets/placeholder-for-relay-image.jpg)
-- Controla dispositivos de alto voltaje
-- Permite activar/desactivar ventilador, humidificador y sistema de calefacción
+### DHT22  
+<img src="https://github.com/user-attachments/assets/14b93496-4a37-4430-bae8-318b63246710" width="300" alt="DHT22">
 
-## 🔌 Dispositivos controlados
+- Sensor de temperatura y humedad de alta precisión.  
+- **Rango de medición:** -40°C a 80°C / 0–100% HR
 
-### Ventilador
-![Ventilador](https://github.com/user-attachments/assets/placeholder-for-fan-image.jpg)
-- Se activa cuando la temperatura supera 20.0°C
-- También se enciende cuando la calidad del aire es deficiente (>1200)
+---
 
-### Humidificador
-![Humidificador](https://github.com/user-attachments/assets/placeholder-for-humidifier-image.jpg)
-- Se activa cuando la humedad cae por debajo del 50.0%
-- Ayuda a mantener el nivel óptimo de humedad
+### MQ-135  
+<img src="https://github.com/user-attachments/assets/7a0789e5-94bd-4a2c-a86e-67c4970373ba" width="300" alt="MQ-135">
 
-### Sistema de calefacción (Lámparas de calor)
-![Lámparas de calor](https://github.com/user-attachments/assets/placeholder-for-heater-image.jpg)
-- Se activa cuando la temperatura baja de 40.0°C
-- Mantiene la temperatura adecuada para los insectos
+- Sensor de calidad del aire.  
+- Detecta gases contaminantes como: NH₃, NOₓ, alcohol, benceno, humo, CO₂
 
-### Sistema de sonido (Buzzer)
-![Buzzer](https://github.com/user-attachments/assets/placeholder-for-buzzer-image.jpg)
-- Emite una alarma sonora cuando el nivel de agua es bajo
-- Alerta al usuario para rellenar el depósito
+---
 
-### Sistema de Alimentación (Servomotor)
-![Servomotor](https://github.com/user-attachments/assets/placeholder-for-servo-image.jpg)
-- Se activa automáticamente según una programación establecida
-- Libera alimento para los insectos en intervalos regulares
+### Módulo de 4 Relevadores  
+<img src="https://github.com/user-attachments/assets/d79e6412-3b3f-487a-9762-34e76300d648" width="300" alt="Módulo Relevadores">
+
+- Controla dispositivos de alto voltaje.  
+- Permite activar/desactivar el ventilador, humidificador y sistema de calefacción.
+
+---
+
+## 🔌 Dispositivos Controlados
+
+### Ventilador  
+<img src="https://github.com/user-attachments/assets/4cdddb4a-fddc-4ac8-95db-80cf8e2975cc" width="300" alt="Ventilador">
+
+- Se activa cuando la temperatura supera los **20.0 °C**.  
+- También se enciende si la calidad del aire es deficiente (**>1200**).
+
+---
+
+### Humidificador  
+<img src="https://github.com/user-attachments/assets/739b651a-f66f-4828-99cb-44cd5da8ad5e" width="300" alt="Humidificador">
+
+- Se activa cuando la humedad cae por debajo del **50.0 %**.  
+- Ayuda a mantener niveles óptimos de humedad.
+
+---
+
+### Sistema de Calefacción (Lámparas de Calor)  
+<img src="https://github.com/user-attachments/assets/035732d0-7977-4c0e-8496-600e121bd5f4" width="300" alt="Lámparas de calor">
+
+- Se activa cuando la temperatura baja de **40.0 °C**.  
+- Mantiene la temperatura adecuada para los insectos.
+
+---
+
+### Sistema de Sonido (Buzzer)  
+<img src="https://github.com/user-attachments/assets/a0d03c3a-7bc0-4b2d-8148-10f955d66a9d" width="300" alt="Buzzer">
+
+- Emite una alarma sonora cuando el nivel de agua es bajo.  
+- Alerta al usuario para rellenar el depósito.
+
+---
+
+### Sistema de Alimentación (Servomotor)  
+<img src="https://github.com/user-attachments/assets/14fb29ce-42f9-4ffb-bcae-8b31ba5a93d5" width="300" alt="Servomotor">
+
+- Se activa automáticamente según una programación establecida.  
+- Libera alimento para los insectos en intervalos regulares.
+
+---
+
 
 ## 📊 Parámetros
 | Parámetro | Valor predeterminado | Descripción |
