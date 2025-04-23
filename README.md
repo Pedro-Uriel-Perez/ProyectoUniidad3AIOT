@@ -26,6 +26,12 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 - **Sistema de Alimentacion (Servomotor)**: Se abre cada cierto tiempo, para la alimentacion de los insectos  
 
 
+## 💾 Códigos
+
+- 🔌 [ESP32 #1](./codigo_esp32_1.ino)
+- 🔌 [ESP32 #2](./codigo_esp32_2.ino)
+
+
 ## 🔧 Componentes
 
 ### ESP32  
