@@ -156,8 +156,6 @@ El sistema sigue un ciclo simple de operación:
 # ESP32-2432S028 Con LVGL
 <img src="https://github.com/user-attachments/assets/ef73f6c0-ce82-4ee4-9682-ee41573a47bd" width="1000" alt="ESP32">
 
-# Diagramas de componentes  
-<img src="https://github.com/user-attachments/assets/60e2088f-d119-4d7a-8a2e-41b153fed68c" width="1000" alt="ESP32">
 ## [Link de Diagrama](https://app.cirkitdesigner.com/project/eaf57e37-b451-443b-987b-f6f723841fcf)
 ---
 
