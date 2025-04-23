@@ -145,6 +145,21 @@ El sistema sigue un ciclo simple de operación:
 
 # Autoevaluación y coevaluación
 
+- **Miguel Ángel Álvarez Ibarra**  
+
+- **Pedro Uriel Pérez Monzón**  
+
+- **Zaida Fernanda**  
+
+Autoevaluación:
+¿Qué hice bien?
+me encargue de organizar correctamente el cableado para que no se viera desordenado y funcionara de forma segura. También me esforcé en la parte decorativa del proyecto, cuidando los detalles para que se viera estético y funcional al mismo tiempo.
+
+¿Qué hice mal?
+Al principio no medí bien las longitudes de los cables, lo que hizo que tuviera que repetir algunas conexiones. Además, no planeé bien el uso del espacio y eso complicó un poco el montaje final.
+
+¿Qué puedo mejorar?
+Puedo mejorar mi organización antes de comenzar el armado, hacer un plan más detallado y revisar mejor los materiales antes de usarlos. También quiero mejorar mi habilidad para soldar o hacer conexiones más seguras.
 
 
 
