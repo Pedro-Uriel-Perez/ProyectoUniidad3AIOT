@@ -35,7 +35,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 
 ## 🔧 Componentes
 
-### ESP32  
+###  2 ESP32  
 <img src="https://github.com/user-attachments/assets/c650635a-9bcd-4f11-838e-982a7d413050" width="300" alt="ESP32">
 
 - Microcontrolador principal que coordina todo el sistema.
