@@ -136,13 +136,14 @@ El sistema sigue un ciclo simple de operación:
 1. Lee los valores de los sensores
 2. Compara con los umbrales establecidos
 3. Activa/desactiva los dispositivos según sea necesario
-4. Envía notificaciones cuando cambia el estado de un dispositivo
 
 
-## Evidencias de practicas de clase
+# Evidencias de practicas de clase
 
 # [Videos](https://drive.google.com/drive/folders/1l9y0XJNzt9TzZj0Vxs_8aQH1ene6313q)
 
+
+# Autoevaluación y coevaluación
 
 
 
