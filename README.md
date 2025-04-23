@@ -145,20 +145,33 @@ El sistema sigue un ciclo simple de operación:
 
 # 📝 Autoevaluación y Coevaluación
 
-## 👤 Miguel Ángel Álvarez Ibarra  
-¿Qué hice bien?
-Considero que hice un buen trabajo, me esforcé por tener a tiempo todo lo necesario y hacer que de igual manera mis compañeros de equipo se pusieran al corriente con lo que debían hacer.
+## 👤 Miguel Ángel Álvarez Ibarra
 
-¿Qué hice mal?
-Quizá pude haber estado más atento a los tiempos ya que nos tuvimos que apresurar mucho para acabar a tiempo pero la distancia entre mis compañeros y la dificultad para conseguir los componentes no me permitió acelerar el proceso de creación del proyecto.
+**Autoevaluación:**
 
-¿Qué puedo mejorar?
-Para la siguiente ocasión me comprometo a planear toda la estructura con antelación para evitar futuros problemas respecto al tiempo, a su vez probar todos los productos en cuanto sean entregados ya que algunos de los que encargamos por línea llegaron en mal estado y no funcionaron correctamente.
+> **¿Qué hice bien?**  
+> Considero que hice un buen trabajo, me esforcé por tener a tiempo todo lo necesario y hacer que, de igual manera, mis compañeros de equipo se pusieran al corriente con lo que debían hacer.
+
+> **¿Qué hice mal?**  
+> Quizá pude haber estado más atento a los tiempos, ya que nos tuvimos que apresurar mucho para acabar a tiempo. Sin embargo, la distancia entre mis compañeros y la dificultad para conseguir los componentes no me permitió acelerar el proceso de creación del proyecto.
+
+> **¿Qué puedo mejorar?**  
+> Para la siguiente ocasión me comprometo a planear toda la estructura con antelación para evitar futuros problemas respecto al tiempo. A su vez, probar todos los productos en cuanto sean entregados, ya que algunos de los que encargamos por línea llegaron en mal estado y no funcionaron correctamente.
 
 ---
 
-## 👤 Pedro Uriel Pérez Monzón  
-*// Aquí escribirá su autoevaluación y coevaluación.*
+## 👤 Pedro Uriel Pérez Monzón
+
+**Autoevaluación:**
+
+> **¿Qué hice bien?**  
+> Participé  en la programación de los componentes y en la integración del sistema, asegurándome de que los sensores y actuadores funcionaran correctamente. También contribuí a documentar el proyecto y organizar la estructura del código.
+
+> **¿Qué hice mal?**  
+> A veces me costó coordinarme con mis compañeros debido a los tiempos distintos de trabajo y eso retrasó algunas tareas. Además, me faltó revisar con más anticipación algunos errores que surgieron en las pruebas.
+
+> **¿Qué puedo mejorar?**  
+> Me gustaría mejorar mi comunicación en equipo y planear mejor las tareas para distribuir el trabajo de forma más equitativa. También quiero seguir fortaleciendo mis conocimientos de programación para resolver problemas con mayor rapidez.
 
 ---
 
@@ -174,6 +187,7 @@ Para la siguiente ocasión me comprometo a planear toda la estructura con antela
 
 > **¿Qué puedo mejorar?**  
 > Puedo mejorar mi organización antes de comenzar el armado, hacer un plan más detallado y revisar mejor los materiales antes de usarlos. También quiero mejorar mi habilidad para soldar o hacer conexiones más seguras.
+
 
 
 
