@@ -143,23 +143,30 @@ El sistema sigue un ciclo simple de operación:
 # [Videos](https://drive.google.com/drive/folders/1l9y0XJNzt9TzZj0Vxs_8aQH1ene6313q)
 
 
-# Autoevaluación y coevaluación
+# 📝 Autoevaluación y Coevaluación
 
-- **Miguel Ángel Álvarez Ibarra**  
+## 👤 Miguel Ángel Álvarez Ibarra  
+*// Aquí escribirá su autoevaluación y coevaluación.*
 
-- **Pedro Uriel Pérez Monzón**  
+---
 
-- **Zaida Fernanda**  
+## 👤 Pedro Uriel Pérez Monzón  
+*// Aquí escribirá su autoevaluación y coevaluación.*
 
-Autoevaluación:
-¿Qué hice bien?
-me encargue de organizar correctamente el cableado para que no se viera desordenado y funcionara de forma segura. También me esforcé en la parte decorativa del proyecto, cuidando los detalles para que se viera estético y funcional al mismo tiempo.
+---
 
-¿Qué hice mal?
-Al principio no medí bien las longitudes de los cables, lo que hizo que tuviera que repetir algunas conexiones. Además, no planeé bien el uso del espacio y eso complicó un poco el montaje final.
+## 👤 Zaida Fernanda  
 
-¿Qué puedo mejorar?
-Puedo mejorar mi organización antes de comenzar el armado, hacer un plan más detallado y revisar mejor los materiales antes de usarlos. También quiero mejorar mi habilidad para soldar o hacer conexiones más seguras.
+**Autoevaluación:**
+
+> **¿Qué hice bien?**  
+> Me encargué de organizar correctamente el cableado para que no se viera desordenado y funcionara de forma segura. También me esforcé en la parte decorativa del proyecto, cuidando los detalles para que se viera estético y funcional al mismo tiempo.
+
+> **¿Qué hice mal?**  
+> Al principio no medí bien las longitudes de los cables, lo que hizo que tuviera que repetir algunas conexiones. Además, no planeé bien el uso del espacio y eso complicó un poco el montaje final.
+
+> **¿Qué puedo mejorar?**  
+> Puedo mejorar mi organización antes de comenzar el armado, hacer un plan más detallado y revisar mejor los materiales antes de usarlos. También quiero mejorar mi habilidad para soldar o hacer conexiones más seguras.
 
 
 
