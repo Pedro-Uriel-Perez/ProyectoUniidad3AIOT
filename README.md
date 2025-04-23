@@ -155,9 +155,9 @@ El sistema sigue un ciclo simple de operación:
 ---
 
 ## Evidencia de funcionamiento 
-<img src="https://github.com/user-attachments/assets/630d154e-5da4-4271-9d7c-189b227808ce" width="300" alt="Imagen1">
-<img src="https://github.com/user-attachments/assets/7fbbeecc-17ee-47e7-9923-9f67d928d13c" width="300" alt="Imagen2">
-<img src="https://github.com/user-attachments/assets/1b995e7e-c866-4f1c-9679-44b30029b1c0" width="300" alt="Imagen2">
+<img src="https://github.com/user-attachments/assets/630d154e-5da4-4271-9d7c-189b227808ce" width="200" alt="Imagen1">
+<img src="https://github.com/user-attachments/assets/7fbbeecc-17ee-47e7-9923-9f67d928d13c" width="200" alt="Imagen2">
+<img src="https://github.com/user-attachments/assets/1b995e7e-c866-4f1c-9679-44b30029b1c0" width="200" alt="Imagen2">
 
 
 
