@@ -147,7 +147,6 @@ El sistema sigue un ciclo simple de operación:
 
 ## 👤 Miguel Ángel Álvarez Ibarra
 
-**Autoevaluación:**
 
 > **¿Qué hice bien?**  
 > Considero que hice un buen trabajo, me esforcé por tener a tiempo todo lo necesario y hacer que, de igual manera, mis compañeros de equipo se pusieran al corriente con lo que debían hacer.
@@ -162,7 +161,6 @@ El sistema sigue un ciclo simple de operación:
 
 ## 👤 Pedro Uriel Pérez Monzón
 
-**Autoevaluación:**
 
 > **¿Qué hice bien?**  
 > Participé  en la programación de los componentes y en la integración del sistema, asegurándome de que los sensores y actuadores funcionaran correctamente. También contribuí a documentar el proyecto y organizar la estructura del código.
@@ -177,7 +175,6 @@ El sistema sigue un ciclo simple de operación:
 
 ## 👤 Zayda Fernanda Vargas Vargas 
 
-**Autoevaluación:**
 
 > **¿Qué hice bien?**  
 > Me encargué de organizar correctamente el cableado para que no se viera desordenado y funcionara de forma segura. También me esforcé en la parte decorativa del proyecto, cuidando los detalles para que se viera estético y funcional al mismo tiempo.
