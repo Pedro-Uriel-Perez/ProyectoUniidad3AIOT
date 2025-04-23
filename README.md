@@ -28,7 +28,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 
 ## 💾 Códigos
 
-- 🔌 [ESP32 #1](./codigo_esp32_1.ino)
+- 🔌 [ESP32 #1](https://github.com/Pedro-Uriel-Perez/ProyectoUniidad3AIOT/blob/main/DHT22-RELAY1-RELAY2-MQ135.py)
 - 🔌 [ESP32 #2](./codigo_esp32_2.ino)
 
 
