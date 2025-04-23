@@ -122,8 +122,9 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 [Video](https://drive.google.com/drive/folders/1AQbpGpi7e0rlrNGNPIrpgBGgKlkwMyw0?usp=sharing)
 
 # Imagenes de Evidencia
-![Descripción de la imagen 1](https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf)
-![Descripción de la imagen 2](https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00)
+<img src="https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf" width="300" alt="Imagen1">
+<img src="https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00" width="300" alt="Imagen2">
+
 
 
 ## 🚀 Uso
