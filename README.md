@@ -132,6 +132,8 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 # Diagramas de componentes  
 <img src="https://github.com/user-attachments/assets/60e2088f-d119-4d7a-8a2e-41b153fed68c" width="1000" alt="ESP32">
 
+## [Link de Diagrama](https://app.cirkitdesigner.com/project/eaf57e37-b451-443b-987b-f6f723841fcf)
+
 ---
 
 
