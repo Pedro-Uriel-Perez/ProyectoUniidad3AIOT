@@ -125,6 +125,30 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 <img src="https://github.com/user-attachments/assets/f3acc4ae-f941-4ffe-bffb-8c2f0a156e00" width="300" alt="Imagen2">
 
 
+# Diagramas de componentes  
+<img src="https://github.com/user-attachments/assets/c650635a-9bcd-4f11-838e-982a7d413050" width="300" alt="ESP32">
+
+- Microcontrolador principal que coordina todo el sistema.
+
+---
+
+### IAMGEN 1  
+<img src="https://github.com/user-attachments/assets/14b93496-4a37-4430-bae8-318b63246710" width="300" alt="DHT22">
+
+- Sensor de temperatura y humedad de alta precisión.  
+- **Rango de medición:** -40°C a 80°C / 0–100% HR
+
+---
+
+### IMAGEN 2  
+<img src="https://github.com/user-attachments/assets/7a0789e5-94bd-4a2c-a86e-67c4970373ba" width="300" alt="MQ-135">
+
+- Sensor de calidad del aire.  
+- Detecta gases contaminantes como: NH₃, NOₓ, alcohol, benceno, humo, CO₂
+
+---
+
+
 
 ## 🚀 Uso
 El sistema inicia automáticamente al conectar el ESP32. La información del sistema se muestra a través del puerto serie:
