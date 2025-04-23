@@ -8,7 +8,7 @@
 - **Pedro Uriel Pérez Monzón**  
   📌 *No. Control:* `1223100428`
 
-- **Zaida Fernanda**  
+- **Zayda Fernanda Vargas Vargas**  
   📌 *No. Control:* `1223458878`
 
 ---
@@ -146,7 +146,14 @@ El sistema sigue un ciclo simple de operación:
 # 📝 Autoevaluación y Coevaluación
 
 ## 👤 Miguel Ángel Álvarez Ibarra  
-*// Aquí escribirá su autoevaluación y coevaluación.*
+¿Qué hice bien?
+Considero que hice un buen trabajo, me esforcé por tener a tiempo todo lo necesario y hacer que de igual manera mis compañeros de equipo se pusieran al corriente con lo que debían hacer.
+
+¿Qué hice mal?
+Quizá pude haber estado más atento a los tiempos ya que nos tuvimos que apresurar mucho para acabar a tiempo pero la distancia entre mis compañeros y la dificultad para conseguir los componentes no me permitió acelerar el proceso de creación del proyecto.
+
+¿Qué puedo mejorar?
+Para la siguiente ocasión me comprometo a planear toda la estructura con antelación para evitar futuros problemas respecto al tiempo, a su vez probar todos los productos en cuanto sean entregados ya que algunos de los que encargamos por línea llegaron en mal estado y no funcionaron correctamente.
 
 ---
 
@@ -155,7 +162,7 @@ El sistema sigue un ciclo simple de operación:
 
 ---
 
-## 👤 Zaida Fernanda  
+## 👤 Zayda Fernanda Vargas Vargas 
 
 **Autoevaluación:**
 
