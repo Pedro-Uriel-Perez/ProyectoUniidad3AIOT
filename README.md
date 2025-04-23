@@ -118,8 +118,7 @@ El sistema monitorea constantemente las condiciones ambientales y controla autom
 | AIR_UMBRAL | 1200 | Umbral de calidad de aire para ventilación |
 
 ## Evidencia de funcionamiento
-# Video de funcionamiento 
-# [Video](https://drive.google.com/drive/folders/1AQbpGpi7e0rlrNGNPIrpgBGgKlkwMyw0?usp=sharing)
+# [Video de Funcionamiento](https://drive.google.com/drive/folders/1AQbpGpi7e0rlrNGNPIrpgBGgKlkwMyw0?usp=sharing)
 
 # Imagenes de Evidencia
 <img src="https://github.com/user-attachments/assets/435de6a5-ac59-4ff5-bcae-536a2d2264bf" width="300" alt="Imagen1">
